@@ -4,6 +4,6 @@ class itemPedido:
         self.__quantidade = quantidade
         self.__precoUnitario = precoUnitario
     def calcularSubtotal(self):
-        pass
-    def alterarQuantidade(self):
-        pass
+        return self.__quantidade * self.__precoUnitario
+    def alterarQuantidade(self, novaQuantidade):
+        self.__quantidade = novaQuantidade
