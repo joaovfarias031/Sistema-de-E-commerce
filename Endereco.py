@@ -23,4 +23,21 @@ class Endereco:
             self.__estado != "" and
             self.__cep != ""
             )
+    def getRua(self):
+        return self.__rua
+
+    def getNumero(self):
+        return self.__numero
+
+    def getBairro(self):
+        return self.__bairro
+
+    def getCidade(self):
+        return self.__cidade
+
+    def getEstado(self):
+        return self.__estado
+
+    def getCep(self):
+        return self.__cep
              

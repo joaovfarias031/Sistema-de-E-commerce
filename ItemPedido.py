@@ -7,3 +7,11 @@ class itemPedido:
         return self.__quantidade * self.__precoUnitario
     def alterarQuantidade(self, novaQuantidade):
         self.__quantidade = novaQuantidade
+    def getDescricao(self):
+        return self.__descricao
+
+    def getQuantidade(self):
+        return self.__quantidade
+
+    def getPrecoUnitario(self):
+        return self.__precoUnitario
